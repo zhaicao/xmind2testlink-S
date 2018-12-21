@@ -23,7 +23,8 @@
 自定义的图标可以在`xmind2testlink/sharedparser`中修改变量_config。
 ```
 
-#### Note
+#### 使用注意
+若之前通过pip或setup.py安装xmind2testlink，需先卸载掉原来版本，在根目录下使用`python setup.py install`安装即可。
 
 ```buildoutcfg
 Web页面暂未修改，可能会造成预览显示不全的现象，但不影响xml文件的下载。
