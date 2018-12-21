@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="2" name="测试用集" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="74" name="用例子集" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<p>用例子集描述</p>
+]]></details> 
+<testsuite id="75" name="子子集合" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="76" name="验证单选、多选情况下显示的正确性">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证异常情况下显示情况</p>
+]]></summary>
+	<preconditions><![CDATA[<p>123</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>单选</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>可以</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>多选</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>可以</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="83" name="单个文件导入">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证是否只允许一个文件导入，导入完成后才可以进行下一个导入</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>1</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>2</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>2</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="87" name="异常情况导入">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证导入功能，有重复数据/字段漏填/列重复等情况时能否成功导入(防呆机制)</p>
+]]></summary>
+	<preconditions><![CDATA[<p>XXXX</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>1.</p>
+
+<p>2.</p>
+
+<p>3.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>预期结果</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>1。</p>
+
+<p>2</p>
+
+<p>3</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>预算结果</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuite><testsuite id="78" name="测试用例子集2" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="79" name="子集2测试用例">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite><testsuite id="322" name="页面交互" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="323" name="页面显示 - 验证页面排版与UI是否一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[67]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="325" name="页面显示 - 验证首次进入首页，默认为工作台页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[68]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="327" name="页面跳转 - 验证Tab页切换正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[69]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="329" name="页面跳转 - 验证切换到非首页页面后再返回首页，首页的Tab页定位保持不变">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[70]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="331" name="页面跳转 - 验证点击'当前项目'，是否进入项目选择页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[71]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite><testsuite id="333" name="工作台" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="334" name="banner图 - 加载5张banner图，显示正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[72]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="336" name="服务列表 - 页面显示 - 常置7个服务框+1个添加框">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[73]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="338" name="服务列表 - 页面显示 - 首次进入 - 默认显示UE图中7个服务">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[74]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="340" name="服务列表 - 页面显示 - 非首次进入 - 显示的服务列表与数据库一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[75]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="342" name="服务列表 - 页面跳转 - 点击每个服务图标，跳转到对应的服务页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[76]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="344" name="服务列表 - 页面跳转 - 点击&quot;+&quot;，跳转到服务分类页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[77]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="346" name="园区商品 - 页面显示 - 显示4个商品，取关商品注度的前四位，关注度相同时按商品首字母排序">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[78]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="348" name="园区商品 - 页面显示 - 商品的条目信息与数据库一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[79]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="350" name="园区商品 - 页面跳转 - 点击&quot;更多&quot;跳转至电商平台首页">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[80]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="352" name="园区商品 - 页面跳转 - 点击商品信息条跳转至商品详情页">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[81]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="354" name="热门话题 - 页面显示 - 只显示留言中回复最多的一条为热门话题">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[82]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="356" name="热门话题 - 页面显示 - 热门话题的信息与数据库查询一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[83]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="358" name="热门话题 - 页面跳转 - 点击&quot;更多&quot;跳转至交流页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[84]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="360" name="热门话题 - 页面跳转 - 点击留言信息条，跳转至该留言详情页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[85]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="362" name="众包悬赏 - 页面显示 - 只显示关注度最高的一条众包">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[86]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="364" name="众包悬赏 - 页面显示 - 众包的信息与数据库查询一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[87]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="366" name="众包悬赏 - 页面跳转 - 点击&quot;更多&quot;跳转至众包平台首页">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[88]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="368" name="众包悬赏 - 页面跳转 - 点击众包信息条，跳转至该众包详情页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[89]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite><testsuite id="370" name="园区" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="371" name="页面显示 - 页面排版与UI一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[90]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="373" name="页面显示 - 城市列表 - 城市数量和名称显示正确">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[91]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[
+						
+城市列表与数据库查询一致						
+					]]></actions>
+	<expectedresults><![CDATA[
+						
+						
+					]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="376" name="页面显示 - 城市列表 - 可左右滑动">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[92]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="378" name="页面显示 - 园区列表 - 园区介绍信息显示与数据库一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[93]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="380" name="页面显示 - 园区列表 - 园区列表不可点击">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[94]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="382" name="城市筛选 - 点击&quot;全部&quot;，显示所有园区介绍列表">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[95]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="384" name="城市筛选 - 点击某个城市，显示出该城市所属的园区介绍列表">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[96]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[
+						
+与数据库查询一致						
+					]]></actions>
+	<expectedresults><![CDATA[
+						
+						
+					]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="387" name="发现" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="388" name="页面显示 - 页面排版与UI一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[97]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="390" name="页面显示 - 新闻和活动页面切换正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[98]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="392" name="新闻 - 页面显示 - 新闻条目数与需求一致，新闻数量和条目信息显示与数据库查询一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[99]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="394" name="新闻 - 页面跳转 - 点击新闻条目行，跳转到对应的新闻详情页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[100]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="396" name="活动 - 页面交互 - 页面排版显示与UI一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[101]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="398" name="活动 - 页面交互 - 活动数量和条目信息显示与数据库查询一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[102]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="400" name="活动 - 页面交互 - 活动状态显示正确">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[103]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[
+						
+依据活动的报名截止时间和活动截止日期显示不同的活动状态						
+					]]></actions>
+	<expectedresults><![CDATA[
+						
+						
+					]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="403" name="活动 - 页面交互 - 点击活动名称或者图片，跳转到对应的详情页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[104]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="405" name="活动 - 活动详情 - 页面交互 - 页面排版与UI一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[105]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="407" name="活动 - 活动详情 - 页面交互 - 活动详情显示与实际一致(已报名人数、活动状态显示正确)">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[106]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="409" name="活动 - 活动详情 - 页面交互 - Tab切换正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[107]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="411" name="活动 - 活动详情 - 页面交互 - 点击&quot;返回&quot;，返回上一页">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[108]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="413" name="活动 - 活动详情 - 页面交互 - 点击&quot;发布&quot;按钮，跳转到发布活动页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[109]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="415" name="活动 - 活动详情 - 收藏 - 未收藏条件下，点击收藏，图标变为红色已收藏标志">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[110]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="417" name="活动 - 活动详情 - 收藏 - 已收藏条件下，点击收藏，图标恢复默认未收藏标志">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[111]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="419" name="活动 - 活动详情 - 活动报名 - 已结束的活动无法报名">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[112]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="421" name="活动 - 活动详情 - 活动报名 - 进行中的活动，点击进行中的活动，弹出报名提交页">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[113]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="423" name="活动 - 活动详情 - 活动报名 - 不输入姓名提交，提交失败，系统提示正确">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[114]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="425" name="活动 - 活动详情 - 活动报名 - 不输入手机提交，提交失败，系统提示正确">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[115]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="427" name="活动 - 活动详情 - 活动报名 - 手机号需要满足11位以1开头的数字，才能提交成功">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[116]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="429" name="活动 - 活动详情 - 活动报名 - 输入正确的手机号+姓名，提交成功，系统提示正确，已报名人数+1，数据库中insert正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[117]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="431" name="活动 - 活动详情 - 评论 - 页面交互 - 页面排版与UI一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[118]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="433" name="活动 - 活动详情 - 评论 - 页面交互 - 评论列表信息与实际一致">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[119]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="435" name="活动 - 活动详情 - 评论 - 发表评论 - 评论内容输入为空，发表失败">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[120]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="437" name="活动 - 活动详情 - 评论 - 发表评论 - 评论内容输入字母、数字、特殊字符正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[121]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="439" name="活动 - 活动详情 - 评论 - 发表评论 - 正常输入评论内容后，发表成功，评论页显示正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[122]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="441" name="活动 - 活动详情 - 评论 - 发表评论 - 正常输入评论内容后，点击取消，发表失败">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[123]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="443" name="活动 - 活动详情 - 评论 - 评论回复 - 点击某条品评论，输入框显示回复**:">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[124]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="445" name="活动 - 活动详情 - 评论 - 评论回复 - 评论回复成功后，回复的评论显示正常，评论位置显示正确">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[125]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite><testsuite id="447" name="开门" >
+<node_order><![CDATA[7]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="448" name="只在首页悬浮显示">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[126]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="450" name="点击&quot;开门&quot;跳转到芝麻开门页面">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[127]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+				
+			]]></summary>
+	<preconditions><![CDATA[
+				
+				
+			]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite>
+<testcase internalid="3" name="测试用例1">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>验证XX功能</p>
+]]></summary>
+	<preconditions><![CDATA[<p>系统正常运行</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>步骤1&nbsp; 点击进入&ldquo;市场变化&rdquo;下的&ldquo;行业市值比较&rdquo;界面</p>
+
+<p>步骤2&nbsp; 图标展现栏中，列指标默认全部选中&nbsp;&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>步骤1结果&nbsp; 图标只展示了一个列指标的统计图</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="12" name="测试用例2">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite>
