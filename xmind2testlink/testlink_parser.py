@@ -74,14 +74,14 @@ def to_testlink_xml_content(testsuite):
             if len(suite.sub_suites) != 0:
                 build_suite_xml(suite_element, suite)
             build_testcase_xml(suite, suite_element)
-        return suite_element
+        return parent_suite
 
     assert isinstance(testsuite, TestSuite)
     root_suite = Element(Tags.testsuite)
     root_suite.set(Attributes.name, testsuite.name)
     cache['testcase_count'] = 0
 
-    root_suite = build_suite_xml(root_suite, testsuite)
+    build_suite_xml(root_suite, testsuite)
 
     tree = ElementTree.ElementTree(root_suite)
     f = BytesIO()
