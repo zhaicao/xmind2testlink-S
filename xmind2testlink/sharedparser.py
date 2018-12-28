@@ -56,14 +56,27 @@ def get_logger():
 def flat_suite(suite):
     """Convert a suite object into flat testcase list."""
     tests = []
+    countSuite = 0
+    def flat_subSuite(rootSuite, suiteName = []):
+        # count suites
+        nonlocal countSuite
+        countSuite += 1
+        if rootSuite.sub_suites:
+            for suite in rootSuite.sub_suites:
+                suiteName.append(suite.name)
+                flat_subSuite(suite, suiteName)
 
-    for suite in suite.sub_suites:
-        for test in suite.testcase_list:
-            d = test.to_dict()
-            d['suite'] = suite.name
-            tests.append(d)
+        if rootSuite.testcase_list:
+            for test in rootSuite.testcase_list:
+                d = test.to_dict()
+                d['suite'] = ' - '.join(suiteName)
+                tests.append(d)
+        if suiteName:
+            suiteName.pop()
 
-    return tests
+    flat_subSuite(suite)
+
+    return tests, countSuite
 
 
 def is_v2_format(d):

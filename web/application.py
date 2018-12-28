@@ -211,8 +211,7 @@ def preview_file(filename):
         abort(404)
 
     suite = xmind_to_suite(full_path)
-    suite_count = len(suite.sub_suites)
-    suite = flat_suite(suite)
+    suite, suite_count = flat_suite(suite)
 
     return render_template('v2/preview.html', name=filename, suite=suite, suite_count=suite_count)
 

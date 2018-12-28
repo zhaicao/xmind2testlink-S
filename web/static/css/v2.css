@@ -276,3 +276,30 @@ table td.long-name {
 table td.long-name:hover .long-name-info {
     visibility: visible;
 }
+
+.splash_flag{
+    display: inline-block;
+    border: 2px solid #FFF;
+    padding: 1px 10px 1px 10px;
+    border-radius: 8px;
+    box-shadow: #666 0px 0px 10px;
+}
+
+.splash_flag_span{
+    color: #FFF;
+    font-size: 2em;
+}
+
+.splash_title{
+    display: inline-block;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 11px rgba(0, 0, 0, 0.58);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.splash_title_span{
+    color: #FFF;
+    font-size: 3em;
+}

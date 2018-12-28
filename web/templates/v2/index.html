@@ -6,13 +6,20 @@
     <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" media="all" href="{{ url_for('static',filename='css/pure-min.css') }}">
     <link rel="stylesheet" type="text/css" media="all" href="{{ url_for('static',filename='css/v2.css') }}">
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
 <div class="splash-container">
     <div class="splash">
-        <h1>
-            Xmind to TestLink
-        </h1>
+        <div class="splash_title">
+            <span class="splash_title_span">Xmind to TestLink</span>
+        </div>
+
+        <div class="splash_flag">
+            <span class="splash_flag_span">S</span>
+        </div>
         <div class="splash-head">
             <div class="select-xmind splash-subhead">
                 <form method="post" enctype="multipart/form-data">
@@ -56,7 +63,7 @@
             Powered by <a href="https://github.com/tobyqin/xmind2testlink">Xmind2TestLink</a> |
             <a href="{{ url_for('static',filename='guide/index.html') }}" target="_blank">How To Use</a> |
             <a href="https://github.com/tobyqin/xmind2testlink/issues/new">Report Issue</a> |
-            Copyright &copy; 2018 Toby Qin
+            Copyright &copy; 2018 Toby Qin && Ricky Chai
         </div>
     </div>
 
