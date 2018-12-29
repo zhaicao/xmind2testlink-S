@@ -34,7 +34,7 @@ web界面已做修改适配，如有多层级suite，通过'-'拼接后，显示
 ## Docker
 - [1.0.0](Dockerfile), [latest](Dockerfile)
 ```buildoutcfg
-$ docker ricky29711/xmind2testlink-s:latest
+$ docker pull ricky29711/xmind2testlink-s:latest
 ```
 ### How to use this image
 start a xmind2testlink-S instance,default port 5001:
