@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<testsuite name="">
+	<testsuite name="页面交互">
+		<details>
+			<!-- -->
+<![CDATA[页面交互备注]]>			<!-- -->
+		</details>
+		<testsuite name="页面交互1级">
+			<details>
+				<!-- -->
+<![CDATA[子主题6测试备注]]>				<!-- -->
+			</details>
+			<testsuite name="页面交互2级">
+				<testcase name="验证页面排版与UI是否一致">
+					<summary>
+						<!-- -->
+<![CDATA[验证页面的排版工作]]>						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>1</importance>
+				</testcase>
+				<testcase name="验证首次进入首页，默认为工作台页面">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>1</importance>
+				</testcase>
+				<testcase name="验证Tab页切换正常">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>1</importance>
+				</testcase>
+				<testcase name="验证切换到非首页页面后再返回首页，首页的Tab页定位保持不变">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>1</importance>
+				</testcase>
+				<testcase name="验证点击'当前项目'，是否进入项目选择页面">
+					<summary>
+						<!-- -->
+						<!-- -->
+					</summary>
+					<preconditions>
+						<!-- -->
+						<!-- -->
+					</preconditions>
+					<execution_type>
+						<!-- -->
+						<!-- -->
+					</execution_type>
+					<importance>2</importance>
+				</testcase>
+			</testsuite>
+		</testsuite>
+		<testsuite name="页面交互分支">
+			<testcase name="页面交互分支2级 - 验证Tab页切换正常">
+				<summary>
+					<!-- -->
+					<!-- -->
+				</summary>
+				<preconditions>
+					<!-- -->
+					<!-- -->
+				</preconditions>
+				<execution_type>
+					<!-- -->
+					<!-- -->
+				</execution_type>
+				<importance>1</importance>
+			</testcase>
+			<testcase name="页面交互分支2级 - 验证切换到非首页页面后再返回首页，首页的Tab页定位保持不变">
+				<summary>
+					<!-- -->
+					<!-- -->
+				</summary>
+				<preconditions>
+					<!-- -->
+					<!-- -->
+				</preconditions>
+				<execution_type>
+					<!-- -->
+					<!-- -->
+				</execution_type>
+				<importance>1</importance>
+			</testcase>
+			<testcase name="页面交互分支2级 - 验证点击'当前项目'，是否进入项目选择页面">
+				<summary>
+					<!-- -->
+					<!-- -->
+				</summary>
+				<preconditions>
+					<!-- -->
+					<!-- -->
+				</preconditions>
+				<execution_type>
+					<!-- -->
+					<!-- -->
+				</execution_type>
+				<importance>2</importance>
+			</testcase>
+		</testsuite>
+		<testcase name="用例">
+			<summary>
+				<!-- -->
+				<!-- -->
+			</summary>
+			<preconditions>
+				<!-- -->
+				<!-- -->
+			</preconditions>
+			<execution_type>
+				<!-- -->
+				<!-- -->
+			</execution_type>
+			<importance>2</importance>
+		</testcase>
+	</testsuite>
+</testsuite>
