@@ -4,7 +4,7 @@ Documentation
 xmind2testlink is a tool to help you convert xmind file to testlink recognized xml files,
 then you can import it into testlink as test suite and test cases.
 
-For more detail, please go to: https://github.com/tobyqin/xmind2testlink_s
+For more detail, please go to: https://github.com/tobyqin/xmind2testlink
 
 """
 from codecs import open
@@ -43,7 +43,7 @@ def main():
         version="1.0.0",
         author="Ricky Chai",
         author_email="Ricky2971@hotmail.com",
-        url="https://github.com/zhaicao/xmind2testlink_s",
+        url="https://github.com/zhaicao/xmind2testlink",
         packages=find_packages(exclude=['tests', 'tests.*']),
         package_data={},
         install_requires=[],

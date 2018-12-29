@@ -2,7 +2,7 @@
 Module to parse xmind file into test suite and test case objects.
 """
 
-from xmind2testlink import sharedparser as __
+from . import sharedparser as __
 from .datatype import *
 
 

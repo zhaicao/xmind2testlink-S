@@ -224,4 +224,4 @@ def app_error(e):
 init()
 
 if __name__ == '__main__':
-    app.run(HOST, debug=DEBUG, port=5002)
+    app.run(HOST, debug=DEBUG, port=5001)
