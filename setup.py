@@ -1,10 +1,10 @@
 """
 Documentation
 -------------
-xmind2testlink is a tool to help you convert xmind file to testlink recognized xml files,
+xmind2testlink_s is a tool to help you convert xmind file to testlink recognized xml files,
 then you can import it into testlink as test suite and test cases.
 
-For more detail, please go to: https://github.com/tobyqin/xmind2testlink
+For more detail, please go to: https://github.com/tobyqin/xmind2testlink_s
 
 """
 from codecs import open
@@ -27,23 +27,23 @@ classifiers = ["License :: OSI Approved :: MIT License",
 
 
 def command_line():
-    target = "xmind2testlink.main:main"
+    target = "xmind2testlink_s.main:main"
     entry_points = []
-    entry_points.append("xmind2testlink=%s" % target)
+    entry_points.append("xmind2testlink_s=%s" % target)
     return entry_points
 
 
 def main():
     setup(
-        name="xmind2testlink",
+        name="xmind2testlink_s",
         description="Convert xmind to TestLink xml",
         keywords="xmind testlink import converter testing testcase",
         long_description=long_description,
         classifiers=classifiers,
-        version="2.0.5",
-        author="Toby Qin",
-        author_email="toby.qin@live.com",
-        url="https://github.com/tobyqin/xmind2testlink",
+        version="0.0.1",
+        author="Ricky Chai",
+        author_email="Ricky2971@hotmail.com",
+        url="https://github.com/zhaicao/xmind2testlink_s",
         packages=find_packages(exclude=['tests', 'tests.*']),
         package_data={},
         install_requires=[],

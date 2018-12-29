@@ -4,19 +4,19 @@ you generate a testlink recognized xml file, then you can import it
 into testlink as test suites.
 
 Usage:
- xmind2testlink [path_to_xmind_file] [-json]
+ xmind2testlink_s [path_to_xmind_file] [-json]
 
 Example:
- xmind2testlink C:\\tests\\testcase.xmind       => output xml
- xmind2testlink C:\\tests\\testcase.xmind -json => output json
+ xmind2testlink_s C:\\tests\\testcase.xmind       => output xml
+ xmind2testlink_s C:\\tests\\testcase.xmind -json => output json
 
 """
 
 import json
 import sys
 
-from xmind2testlink.testlink_parser import to_testlink_xml_file
-from xmind2testlink.xmind_parser import xmind_to_suite, xmind_to_flat_dict
+from xmind2testlink_s.testlink_parser import to_testlink_xml_file
+from xmind2testlink_s.xmind_parser import xmind_to_suite, xmind_to_flat_dict
 
 
 def xmind_to_testlink(xmind):
