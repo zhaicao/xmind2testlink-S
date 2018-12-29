@@ -4,11 +4,11 @@ you generate a testlink recognized xml file, then you can import it
 into testlink as test suites.
 
 Usage:
- xmind2testlink [path_to_xmind_file] [-json]
+ xmind2testlink_s [path_to_xmind_file] [-json]
 
 Example:
- xmind2testlink C:\\tests\\testcase.xmind       => output xml
- xmind2testlink C:\\tests\\testcase.xmind -json => output json
+ xmind2testlink_s C:\\tests\\testcase.xmind       => output xml
+ xmind2testlink_s C:\\tests\\testcase.xmind -json => output json
 
 """
 
